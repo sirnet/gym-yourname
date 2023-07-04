@@ -3,3 +3,25 @@
 body {
     padding: 0;
 }
+
+.aboniment {
+    width: 100%;
+}
+
+.aboniment-table {
+    display: flex;
+    justify-content: center;
+}
+.table-list {
+    width: 100%;
+}
+.table-item {
+    display: flex;
+    justify-content: center;
+    .stroka-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
