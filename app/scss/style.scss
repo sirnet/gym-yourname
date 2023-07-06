@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    background: #0C1417;
     img {
         position: absolute;
         background-size: cover;
@@ -103,22 +104,17 @@ body {
         justify-content: space-between;
     }
     .item {
-        height: 35px;
         display: flex;
         justify-content: center;
     }
     .link {
         display: flex;
-        justify-content: center;
         align-items: center;
-        width: 35px;
-        height: 35px;
+        position: relative;
+        width: 40px;
+        height: 40px;
     }
     svg {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         fill: #fff;
         transition: 1s;
     }
@@ -177,33 +173,254 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-.aboniment {
+.main-page {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .container {
+        position: relative;
+        width: 100%;
+        background: #0C1417;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 97;
+    }
+    .new-live {
+        width: 1440px;
+        margin-top: 140px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.aboniment-table {
+.new-left-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#fff;
+    .list {
+        display: flex;
+    }
+    .item:nth-child(2) {
+        margin-top: 50px;
+        margin-left: -80px;
+    }
+}
+
+.new-right-block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 76px;
+    .info {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .description {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .btn-consultant {
+        color:#fff;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        height: 60px;
+        background-image: url("../img/Rectangle 15.webp");
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+    .btn-consultant:hover {
+        content: '';
+        color:#F7931E;
+    }
 }
-.table-list {
+
+.new-icon {
+    margin-top: 50px;
+    color: #fff;
+    .list {
+        display: flex;
+        flex-direction: row;
+    }
+    .item {
+        height: 85px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+        span {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            margin-left: 25px;
+        }
+    }
+
+    .item:hover {
+        border-bottom: 2px solid #F7931E;
+        transition: 1s;
+    }
+}
+
+.gallery {
+    position: relative;
+    width: 1440px;
+    margin-top: 100px;
+    .gallery-text {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 80px;
+    }
+    .slider-trener {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .list {
+            display: flex;
+            align-items: center;
+            width: 1160px;
+            overflow: hidden;
+        }
+        .item {
+            margin-right: 30px;
+        }
+        .btn-left, .btn-right {
+            position: absolute;
+        }
+        .prokrutka {
+            position: relative;
+            margin-top: 33px;
+            background-color: #fff;
+            height: 4px;
+            width: 1000px;
+            .point {
+                position: absolute;
+                top: -3px;
+                left: 52px;
+                background-color:#F7931E;
+                height: 10px;
+                width: 200px;
+            }
+        }
+        .prokrutka-trener {
+            margin-bottom: 103px;
+        }
+    }
+}
+
+.btn-left, .btn-right {
+    svg {
+        fill: #fff;
+        transition: 1s;
+        cursor: pointer;
+    }
+    svg:hover {
+        fill: #F7931E;
+        transition: 1s;
+    }
+}
+
+.btn-right {
+    right: 40px;
+    top: 40%;
+}
+
+.btn-left {
+    z-index: 98;
+    left: 40px;
+    top: 40%;
+}
+
+.slider-sportzal {
+    margin-top: 60px;
+}
+
+.component-4 {
+    position: absolute;
+    width: 276px;
+    height: 331px;
+    bottom: -34px;
+    background-image: url('../img/Component\ 4.webp');
+    background-repeat: no-repeat;
+}
+
+.aboniment, .one-traning {
     width: 100%;
-}
-.table-item {
     display: flex;
+    align-items: center;
     justify-content: center;
-    .stroka-list {
+}
+    .aboniment-table {
+        margin-top: 100px;
+        width: 1440px;
+    }
+    .aboniment-text {
+        margin-bottom: 80px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: center;
+    }
+    .abonement-shapka_list {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
+        padding-bottom: 15px;
+        margin-bottom: 35px;
+        border-bottom: 2px solid #0C141780
     }
-}
+
+    .abonement-shapka_item {
+        text-align: center;
+        width: 220px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .abonement-shapka_item:nth-child(1) {
+        text-align: left;
+        font-weight: 400;
+    }
+    .abonement-shapka_item:nth-child(5) {
+        color:#F7931E;
+    }
+    .abonement-stroka_list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .abonement-yacheika_item {
+        width: 210px;
+        height: 100px;
+        text-align: center;
+    }
+    .abonement-stroka_item:nth-child(1) {
+        .abonement-yacheika_item {
+            text-align: left;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .abonement-yacheika_item:nth-child(1) {
+            color:#F7931E;
+        }
+    }
+
+
+
+
