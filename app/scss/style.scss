@@ -421,6 +421,187 @@ body {
         }
     }
 
+.trener {
+    width: 100%;
+    color: #fff;
+    .trener-block {
+        margin-top: 100px;
+        width: 1440px;
+        display: flex;
+        .trener-info {
+            margin-top: 207px;
+            margin-left: 82px;
+            margin-right: 55px;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 34px;
+        }
+        .slider {
+            width: 1104px;
+            overflow: hidden;
+        }
+    }
+    .slider-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        svg {
+            padding-right: 40px;
+        }
+    }
+}
 
+.slider {
+    .list {
+        display: flex;
+    }
+    .item {
+        margin-right: 28px;
+    }
+    .trener-personal {
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .trener-name {
+        margin-top: 20px;
+    }
+}
 
+.question {
+    color:#fff;
+    .question-block {
+        height: 600px;
+        width: 1440px;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+    img {
+        position: absolute;
+    }
+    .contakts-block {
+        z-index: 98;
+        padding-right: 170px;
+    }
+    .question-info {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    .question-form-text {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        span {
+            color:#F7931E;
+        }
+    }
+    form {
+        width: 351px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    input {
+        width: 351px;
+        outline: none;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    button {
+        margin-top: 30px;
+        display: block;
+        width: 280px;
+        height: 60px;
+        background: url('../img/Rectangle 15.webp');
+        background-color: none;
+        border: none;
+        color:#fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    .question-help {
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .map-content {
+        width: 1440px;
+        height: 567px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+    }
+    img {
+        position: absolute;
+        left: 0;
+    }
+    .map-block {
+        margin-top: 59px;
+        margin-left: 176px;
+        z-index: 98;
+        width: 396px;
+        height: 449px;
+        background: #0C1417;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        .contakts-text {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 34px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+    .item {
+        display: flex;
+        justify-content: flex-start;
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 26px;
+        }
+        img {
+            position: relative;
+            height: 24px;
+            margin-right: 16px;
+        }
+    }
+    .map-social {
+        width: 300px;
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+    }
+    svg {
+        fill:#F7931E;
+        margin-right: 15px;
+    }
+}
 
