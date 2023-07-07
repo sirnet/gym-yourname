@@ -626,12 +626,15 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
     }
     .footer-navigation {
         display: flex;
         flex-direction: row;
         padding-left: 43px;
+    }
+    .footer-logo {
+        align-items: start;
     }
     .navigation-block {
         margin-left: 92px;
@@ -642,7 +645,7 @@ body {
         width: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: start;
         justify-content:space-between;
         .list {
             height: 72px;
@@ -987,7 +990,22 @@ body {
 }
 
 @media (max-width: 320px) {
+    .navigation {
+        .menu {
+            .list {
+                display: none;
+            }
+        }
+    }
+    .header-page {
+        .social {
+            width: 320px;
+        }
+    }
     .main-page {
+        .new-live {
+            width: 320px;
+        }
         .new-left-block {
             .list {
                 width: 320px;
@@ -996,11 +1014,21 @@ body {
                     width: 290px;
                 }
             }
+            .new-right-block {
+                width: 320px;
+            }
+            .info {
+                width: 300px;
+            }
+            .description {
+                width: 300px;
+            }
             .item {
                 margin: 0;
             }
         }
         .new-icon {
+            width: 320px;
             .list {
                 width: 320px;
             }
@@ -1015,6 +1043,19 @@ body {
             }
             .list {
                 width: 320px;
+            }
+            .prokrutka {
+                display: none;
+            }
+            .component-4 {
+                display: none;
+            }
+            .slider-sportzal {
+                .list {
+                    img {
+                        width: 320px;
+                    }
+                } 
             }
         }
         .aboniment-table {
@@ -1039,6 +1080,7 @@ body {
                     padding-left: 10px;
                 }
             }
+            
         }
         .question {
             .question-block {
@@ -1059,10 +1101,46 @@ body {
             }
         }
         .map {
+            .map-content {
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                height: unset;
+            }
             height: 684px;
             overflow: hidden;
             .map-img {
                 position: relative;
+            }
+            .map-block {
+                margin: 0;
+                background-color:#0C1417;
+                width: 320px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .page-footer {
+        .footer-blok {
+            width: 320px;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            .footer-navigation {
+                padding: 0;
+                flex-direction: column;
+            }
+        }
+        .navigation-block {
+            display: none;
+        }
+        .footer-text {
+            position: absolute;
+            bottom: 0;
+        }
+        .footer-logo {
+            img {
+                margin: 0;
             }
         }
     }
