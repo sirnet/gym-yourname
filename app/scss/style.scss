@@ -248,7 +248,10 @@ body {
 .new-icon {
     margin-top: 50px;
     color: #fff;
+    display: flex;
+    justify-content: center;
     .list {
+        width: 1320px;
         display: flex;
         flex-direction: row;
     }
@@ -367,7 +370,7 @@ body {
 }
     .aboniment-table {
         margin-top: 100px;
-        width: 1440px;
+        width: 1071px;
     }
     .aboniment-text {
         margin-bottom: 80px;
@@ -605,3 +608,462 @@ body {
     }
 }
 
+.page-footer {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.70);
+    .container {
+        height: 241px;
+        position: relative;
+        width: 100%;
+        background: #0C1417;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 97;
+    }
+    .footer-blok {
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-navigation {
+        display: flex;
+        flex-direction: row;
+        padding-left: 43px;
+    }
+    .navigation-block {
+        margin-left: 92px;
+        display: flex;
+        width: 652px;
+    }
+    .list-block {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        .list {
+            height: 72px;
+            display: flex;
+            flex-direction:column;
+        }
+        .link {
+            text-decoration: none;
+            color:rgba(255, 255, 255, 0.70);
+            font-size: 14px;
+        }
+        .item {
+            padding-bottom: 10px;
+        }
+        .item-social {
+            .item {
+                display: flex;
+                align-items: center;
+            }
+        }
+        svg {
+            fill:#fff;
+            padding-right: 15px;
+        }
+    }
+    .footer-address {
+        padding-right: 43px;
+        p {
+            padding-bottom: 15px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-img {
+            width: 100%;
+    }
+    .navigation {
+        position: relative;
+        width: 100%;
+        .menu {
+            position: absolute;
+            width: 581px;
+            top: 120px;
+            left: 25%;
+            .link {
+                font-size: 16px;
+            }
+        }
+    }
+    .header-page {
+        .phone {
+            margin-top: 41px;
+            padding-right: 15px;
+        }
+        .social {
+            width: 1024px;
+        }
+    }
+    .main-page {
+        .new-live {
+            width: 1024px;
+        }
+        .new-left-block {
+            img {
+                width: 300px;
+            }
+        }
+        .new-icon {
+            .list {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .gallery {
+        width: 1024px;
+        .slider-trener {
+            .list {
+                width: 920px;
+            }
+            .prokrutka {
+                width: 700px;
+            }
+            .btn-left, .btn-right {
+                display: none;
+            }
+        }
+    }
+    .aboniment, .one-traning {
+        .aboniment-table {
+            width: 960px;
+        }
+        .abonement-yacheika_item {
+            width: 180px;
+        }
+    }
+    .trener {
+        .trener-block {
+            width: 1024px;
+        }
+    }
+    .question {
+        .question-block {
+            width: 1024px;
+        }
+    }
+    .map {
+        .map-content {
+            width: 1024px;
+            height: 403px;
+        }
+        .map-img {
+            width: 100%;
+        }
+        .map-block {
+            margin-left: 100px;
+            width: 300px;
+            height: 300px;
+            .contakts-text {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .list {
+                p{
+                    font-size: 14px;
+                    margin-bottom: 20px;
+                }
+            }
+            .contakts-subscription {
+                font-size: 14px;
+            }
+            .map-social {
+                margin-top: 5px;
+                width: 258px;
+            }
+        }
+    }
+    .page-footer {
+        .footer-blok {
+            width: 1024px;
+            .footer-navigation {
+                padding-left: 23px;
+            }
+            .footer-address {
+                padding-right: 23px;
+            }
+        }
+        .navigation-block {
+            width: 450px;
+            margin-left: 50px;
+            .link {
+                font-size: 12px;
+            }
+        }
+        .footer-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 150px;
+            }
+            .footer-text {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header-page {
+        .navigation {
+            .menu {
+                top: 90px;
+                left: 94px;
+                font-size: 16px;
+            }
+        }
+        .header-text {
+            font-size: 58px;
+        }
+        .img-left {
+            bottom: -915px;
+            width: 320px;
+        }
+        .social {
+            width: 768px;
+        }
+    }
+    .main-page {
+        .new-left-block {
+            text-align: center;
+            flex-direction: column-reverse;
+            img {
+                width: 400px;
+            }
+            .new-right-block {
+                width: 738px;
+                margin-left: 0;
+                align-items: center;
+                margin-bottom: 60px;
+            }
+        }
+        .new-live {
+            margin-top: 100px;
+        }
+        .new-icon {
+            .list {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                width: 594px;
+            }
+            .item {
+                flex-direction: column;
+                text-align: center;
+                width: 220px;
+                margin-bottom: 60px;
+                img {
+                    width: 64px;
+                    height: 64px;
+                }
+                span {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .gallery {
+        .slider-trener {
+            z-index: 98;
+            width: 768px;
+            .list {
+                width: 738px;
+            }
+            .prokrutka {
+                width: 482px;
+                .point {
+                    width: 100px;
+                }
+            }
+        }
+        .component-4 {
+            z-index: 97;
+        }
+    }
+    .aboniment, .one-traning {
+        .aboniment-table{
+            width: 738px;
+            .abonement-shapka_item {
+                font-size: 14px;
+            }
+            .abonement-yacheika_item {
+                font-size: 14px;
+                width: 150px;
+            }
+        }
+    }
+    .trener {
+        .trener-block {
+            width: 768px;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+            .trener-info{
+                margin-top: 100px;
+                margin-bottom: 60px;
+                text-align: center;
+            }
+            .slider {
+                width: 738px;
+            }
+            .list {
+                width: 738px;
+            }
+        }
+    }
+    .question {
+        .question-block {
+            width: 768px;
+        }
+    }
+    .map {
+        overflow: hidden;
+        .map-img {
+            width: 1024px;
+            background-size: cover;
+        }
+    }
+    .page-footer {
+        .footer-logo {
+            justify-content: start;
+            align-items: start;
+            width: 195px;
+        }
+        .footer-text {
+            width: 195px;
+            line-height: 20px;
+        }
+        .footer-address {
+            text-align: right;
+        }
+        .footer-blok {
+            width: 768px;
+            .navigation-block {
+                width: 100%;
+            }
+            .list-block {
+                width: 174px;
+                flex-direction: column;
+                align-items: start;
+                .list {
+                    height: unset;
+                }
+                .item {
+                    padding: 0;
+                }
+                .item-social {
+                    position: absolute;
+                    right: 23px;
+                    bottom: 20px;
+                    .item {
+                        flex-direction: row-reverse;
+                        justify-content: end;
+                    }
+                    svg {
+                        padding-right: 0;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .main-page {
+        .new-left-block {
+            .list {
+                width: 320px;
+                flex-direction: column;
+                img {
+                    width: 290px;
+                }
+            }
+            .item {
+                margin: 0;
+            }
+        }
+        .new-icon {
+            .list {
+                width: 320px;
+            }
+        }
+        .gallery {
+            .gallery-text {
+                width: 320px;
+                margin: 0;
+            }
+            .slider-trener {
+                width: 320px;
+            }
+            .list {
+                width: 320px;
+            }
+        }
+        .aboniment-table {
+            display: none;
+        }
+        .trener {
+            .slider {
+                width: 320px;
+                .list {
+                    width: 320px;
+                }
+                .item {
+                    margin: 0;
+                }
+                img {
+                    width: 320px;
+                }
+                .trener-name {
+                    padding-left: 10px;
+                }
+                .trener-personal {
+                    padding-left: 10px;
+                }
+            }
+        }
+        .question {
+            .question-block {
+                width: 320px;
+            }
+            .contakts-block {
+                width: 320px;
+                padding: 0;
+            }
+            form {
+                width: 320px;
+                input {
+                    width: 280px;
+                }
+            }
+            .question-help {
+                width: 320px;
+            }
+        }
+        .map {
+            height: 684px;
+            overflow: hidden;
+            .map-img {
+                position: relative;
+            }
+        }
+    }
+}
